@@ -1,6 +1,7 @@
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+from icecream import ic
 
 
 def load_data():
@@ -35,7 +36,7 @@ def evaluate_model(y_test, predictions):
     :return: Prints the accuracy of the model
     """
     accuracy = accuracy_score(y_test, predictions)
-    print(f"Accuracy: {accuracy:.2f}")
+    ic(accuracy)
 
 
 def get_scaler():

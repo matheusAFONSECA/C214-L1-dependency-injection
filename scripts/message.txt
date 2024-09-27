@@ -1,4 +1,5 @@
-feat(project): Adding code using dependency injection
+feat(project): Adding ReadMe
 
-Adding a code which uses a dependency injection.
-The data used to train the models are abstract.
+Adding a ReadMe file
+dedicated to explain 
+the project.
