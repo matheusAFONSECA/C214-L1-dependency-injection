@@ -1,0 +1,4 @@
+feat(project): Adding code using dependency injection
+
+Adding a code which uses a dependency injection.
+The data used to train the models are abstract.
