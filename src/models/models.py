@@ -59,7 +59,7 @@ class MLTrainingPipeline:
     def __init__(self, model: BaseModel, scaler):
         """
         Initialize the pipeline with a model and a scaler.
-        
+
         Dependency Injection: The model (RandomForest or LogisticRegression)
         and scaler (StandardScaler) are injected via the constructor.
         """
@@ -69,7 +69,7 @@ class MLTrainingPipeline:
     def run_pipeline(self, X_train, X_test, y_train):
         """
         Execute the pipeline steps: scaling, training, and predicting.
-        
+
         :param X_train: Training features
         :param X_test: Testing features
         :param y_train: Training labels

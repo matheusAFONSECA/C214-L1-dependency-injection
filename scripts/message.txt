@@ -1,5 +1,7 @@
-feat(project): Adding ReadMe
+feat(project): Updating ReadMe
 
-Adding a ReadMe file
-dedicated to explain 
+The ReadMe file was 
+updated and now has
+the complete 
+explaination about
 the project.
