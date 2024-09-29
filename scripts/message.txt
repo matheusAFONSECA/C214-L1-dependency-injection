@@ -1,0 +1,7 @@
+feat(project): Updating ReadMe
+
+The ReadMe file was 
+updated and now has
+the complete 
+explaination about
+the project.
